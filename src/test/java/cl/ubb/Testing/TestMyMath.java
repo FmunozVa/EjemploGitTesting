@@ -6,13 +6,13 @@ import org.junit.Test;
 
 public class TestMyMath {
 	@Test
-public void AddTwoAndTwoIsFour(){
+public void AddMinusOneAndFourIsThree(){
 		//Arrange
 		MyMath myMath=new MyMath();
 		int resultado;
 		//act
-		resultado= myMath.add(2,2);
+		resultado= myMath.add(-1,4);
 		//Assert
-		assertEquals(resultado,4);
+		assertEquals(resultado,3);
 	}
 }
